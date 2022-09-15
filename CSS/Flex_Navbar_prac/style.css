@@ -1,0 +1,38 @@
+.nav {
+    background-color: #333333;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.nav-title {
+    color: white;
+    font-weight: lighter;
+}
+
+.nav-links {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+.active{
+    font-weight: bold;
+}
+
+a {
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #17a2b8;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+    font-weight: bold;
+}

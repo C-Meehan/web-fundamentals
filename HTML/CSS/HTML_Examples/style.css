@@ -1,0 +1,41 @@
+body {
+    background-color: blanchedalmond;
+}
+h1 {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.green {
+    background-color: mediumseagreen;
+}
+
+#red {
+    background-color: tomato;
+}
+
+.is-centered {
+    text-align: center;
+}
+
+.is-red {
+    color: red;
+}
+
+* {
+    outline: 1px solid red;
+}
+
+input {
+    padding: 5px;
+    border-color: rebeccapurple;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
+}
+

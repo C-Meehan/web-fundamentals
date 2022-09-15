@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+</head>
+<body>
+    <h1><strong>Christopher Meehan</strong></h1>
+    <img src="images/profile_picture.jpeg" width="300" height="300" alt="My Profile Picture">
+    <div>
+        <img src="images/GitHub-Icon.png" width="50" height="50" alt="GitHub icon"> 
+        <a href="https://github.com/C-Meehan">my github</a>
+        <img src="images/LinkedIn_icon.svg.png" width="50" height="50" alt="LinkedIn icon">
+        <a href="https://www.linkedin.com/in/christopher-meehan-3275658b/">my linkedin</a>
+        <img src="images/Gmail_icon_(2020).svg.png" width="50" height="50" alt="Gmail Icon">
+        <a href="mailto:chrismeehan91@gmail.com">my email</a>
+    </div>
+    <h2>Technologies</h2>
+    <table border="1">
+        <tr>
+            <th>Front-End</th>
+            <th>Python</th>
+            <th>Javascript</th>
+        </tr>
+        <tr>
+            <td>HTML5</td>
+            <td>Django</td>
+            <td>Express</td>
+        </tr>
+        <tr>
+            <td>CSS3</td>
+            <td>Flask</td>
+            <td>Mongoose</td>
+        </tr>
+    </table>
+    <form action="/process" method="post">
+        <h3>Contact Me</h3>
+        <label>Name: </label>
+        <input type="text"  name="First and Last Name" placeholder="John Doe...">
+
+        <label>Email: </label>
+        <input type="text" name="Email" placeholder="johndoe@example.com">
+
+        <p>Message:</p>
+        <div>
+            <textarea name="comment" cols="50" rows="5"></textarea>     
+        </div>
+        <input type="submit" value="Send Message">
+    </form>
+</body>
+</html>

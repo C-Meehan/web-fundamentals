@@ -1,0 +1,96 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    background-color: blanchedalmond;
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: #333333;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.nav-title {
+    color: white;
+    font-weight: lighter;
+}
+
+.nav-links {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+}
+
+.active{
+    font-weight: bold;
+}
+
+a {
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #17a2b8;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+    font-weight: bold;
+}
+
+.plus {
+    background-color: #00d1b2;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border: 1px solid mediumseagreen;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50%;
+    
+}
+
+.button {
+    background-color: #2b78e4;
+    color: white;
+    text-align: center;
+    width: 150px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+
+.row {
+    display: flex;
+}
+
+.col-3, .col-2 {
+    height: 80px;
+    margin: 5px;
+    text-align: center;
+}
+
+.col-2 {
+    background-color: orange;
+    color: blue;
+    flex: 2;
+}
+
+.col-3 {
+    background-color: blue;
+    color: orange;
+    flex: 1;
+}

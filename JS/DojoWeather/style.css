@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 200px;
+}
+
+#top-navbar {
+    width: 100%;
+    background-color: #9FC5F8;
+} 
+
+.top-nav {
+    color: white;
+}
+
+.top-nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-nav, .btm-nav {
+    width: 60%;
+    height: 95px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.title {
+    font-size: 50px;
+}
+
+.cities {
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    list-style: none;
+}
+
+.btm-nav {
+    border-bottom: 3px solid black;
+    font-weight: bold;
+}
+
+.btm-nav h2 {
+    font-size: 40px;
+}
+
+.temperature {
+    display: flex;
+    justify-content: space-between;
+    width: 18%;
+}
+
+select {
+    width: 40px;
+}
+
+main {
+    width: 60%;
+    height: 550px;
+    margin: 20px auto;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+
+.weather-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EEEEEE;
+    width: 22%;
+}
+
+.weather-box h3 {
+    font-size: 30px;
+}
+
+.weather-box img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.temps {
+    width: 40%;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-temp {
+    color: red;
+}
+
+.right-temp {
+    color: blue;
+}
+
+.left-temp::after, .right-temp::after {
+    content: "°";
+}
+
+footer {
+    width: 60%;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EEEEEE;
+    border: 2px solid black;
+    /* position: fixed; */
+}
+
+.footer-info {
+    display: flex;
+    justify-content: left;
+}
+
+.agree {
+    width: 250px;
+    height: 30px;
+    background-color: #9FC5F8;
+    color: black;
+    box-shadow: 3px 3px 3px black;
+    margin-right: 20px;
+}
